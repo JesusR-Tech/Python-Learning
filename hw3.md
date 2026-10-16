@@ -109,3 +109,11 @@ for ch in sentence.lower():
 starts_cap = "Yes" if sentence[0].isupper() else "No"
 ends_punct = "Yes" if sentence[-1] in ".!?" else "No"
 
+bonus points
+word = input("Enter a word or phrase: ")
+cleaned = word.lower().replace(" ", "")
+
+if cleaned == cleaned[::-1]:
+    print("Palindrome")
+else:
+    print("Not a palindrome")
