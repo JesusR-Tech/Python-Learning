@@ -8,7 +8,7 @@ Section 1: Multiple Choice
 
 Section 2: True/False
 T
-F (it’s not A and not B)
+F 
 T
 F
 T
